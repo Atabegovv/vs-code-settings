@@ -1,0 +1,74 @@
+{
+    "workbench.startupEditor": "none",
+    "editor.fontSize": 16,
+    "editor.lineHeight": 1.5,
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.fontSize": 18,
+    "files.autoSave": "afterDelay",
+    "security.workspace.trust.untrustedFiles": "open",
+    "reactSnippets.settings.prettierEnabled": true,
+    "workbench.editorAssociations": {
+        "*.DS_Store": "default"
+    },
+
+    //Main editor settings
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+    "editor.smoothScrolling": true,
+    "editor.minimap.enabled": false,
+    "editor.detectIndentation": true,
+
+    // Wrapping
+    "editor.wordWrap": "bounded",
+    "editor.wrappingIndent": "same",
+    "editor.wordWrapColumn": 120,
+
+    // Rename tags
+    "editor.linkedEditing": true,
+    "html.autoClosingTags": true,
+    "javascript.autoClosingTags": true,
+    "typescript.autoClosingTags": true,
+
+    "editor.quickSuggestionsDelay": 0,
+
+    //Appearance
+    "editor.glyphMargin": true,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "workbench.activityBar.location": "top",
+    // "window.density.editorTabHeight": "compact",
+
+    // Cursor
+    "editor.cursorBlinking": "expand",
+    "editor.cursorStyle": "line-thin",
+    "editor.cursorSmoothCaretAnimation": "explicit",
+
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": ["comment"],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+
+    //Format
+    "editor.formatOnSave": true,
+    "prettier.tabWidth": 4,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.inlineSuggest.enabled": true,
+
+    //JS & TS
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    // "typescript.preferences.quoteStyle": "single",
+    // "javascript.preferences.quoteStyle": "single",
+    // "javascript.format.semicolons": "remove",
+    // "typescript.format.semicolons": "remove",
+    "js/ts.implicitProjectConfig.experimentalDecorators": true
+}
